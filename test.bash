@@ -12,5 +12,5 @@ echo 21 > $tmp-ans
 diff $tmp-ans $tmp-out || echo error
 
 echo OK
-i 
+ 
 exit 0
