@@ -11,8 +11,8 @@ echo 21 > $tmp-ans
 ./motai-kadai2 1029 1071 > $tmp-out || echo error
 diff $tmp-ans $tmp-out || echo error
 
-echo ok
- 
+echo OK
+rm -f $tmp-* 
 exit 0
 
 
